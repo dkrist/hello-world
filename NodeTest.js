@@ -5,6 +5,6 @@ app.get('/MyHomePage', function (req, res) {
   res.send('Hello World!');
 });
 
-var nodeServer = app.listen(22, function () {
-  console.log('Example app listening on port 22!' + ' Server: ' + nodeServer.address().address);
+var nodeServer = app.listen(3000, function () {
+  console.log('Example app listening on port 3000!' + ' Server: ' + nodeServer.address().address);
 });
